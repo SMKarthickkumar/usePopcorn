@@ -1,0 +1,12 @@
+
+
+Section 10 : Thinking in React: Components, Composition, and Reusability
+
+110 - Prop Drilling
+
+    - In React, prop drilling refers to the process of passing data 
+        from a parent component down to deeply nested child components 
+        through a series of intermediate components. 
+        
+        This happens when a component needs data that isn't directly provided 
+        by its parent, but rather by a component higher up in the hierarchy.
