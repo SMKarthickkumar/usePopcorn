@@ -10,3 +10,13 @@ Section 10 : Thinking in React: Components, Composition, and Reusability
         
         This happens when a component needs data that isn't directly provided 
         by its parent, but rather by a component higher up in the hierarchy.
+
+111 - Component Composition
+    - What is a Component Composition in React?
+        Component composition in React involves combining smaller, independent 
+        components to create complex UIs. Each sub-component can contain further 
+        components, enhancing code readability. This process breaks down the UI 
+        into manageable pieces, aiding traceability, scalability, 
+        and maintenance. Component composition facilitates easier debugging 
+        and isolated changes, making web development more efficient 
+        and maintainable.
