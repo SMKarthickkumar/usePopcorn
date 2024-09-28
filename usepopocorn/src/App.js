@@ -64,10 +64,20 @@ function App() {
       </NavBar>
 
       <Main>
+        {/* 114 - pass element as props 
+        <Box element={<MoviesList movies={movies} />} />
+        <Box
+          element={
+            <>
+              <WatchedSummary watched={watched} />
+              <WatchedMovieList watched={watched} />
+            </>
+          }
+        />
+        */}
         <Box>
           <MoviesList movies={movies} />
         </Box>
-
         <Box>
           <WatchedSummary watched={watched} />
           <WatchedMovieList watched={watched} />

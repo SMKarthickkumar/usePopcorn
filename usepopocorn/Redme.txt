@@ -20,3 +20,7 @@ Section 10 : Thinking in React: Components, Composition, and Reusability
         and maintenance. Component composition facilitates easier debugging 
         and isolated changes, making web development more efficient 
         and maintainable.
+
+114 - Passing Elements as Props (Alternative to children)
+    - Pass Elements as props explicitly, 
+      you pass a props as a children it's implicitly
